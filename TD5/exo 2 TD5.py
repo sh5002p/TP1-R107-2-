@@ -1,0 +1,5 @@
+jours = int(input("donner le jour:"))
+heures = int(input("donner le nombre d heure:"))
+minute = int(input("donner le nombre de minute:"))
+minutes = ((60*24)*jours)+ minute + (heures*60)
+print(minutes)
